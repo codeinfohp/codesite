@@ -154,6 +154,7 @@
   var mySwiper = new Swiper('.hero_slider', {
     loop: true,
     speed: 2000,
+    effect: 'fade',
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
